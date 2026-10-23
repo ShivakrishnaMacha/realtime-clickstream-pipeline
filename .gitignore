@@ -1,0 +1,27 @@
+# virtualenvs
+venv/
+.venv/
+env/
+
+# python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# pytest
+.pytest_cache/
+
+# streamlit
+.streamlit/
+
+# pipeline output (checkpoints, quarantine, summary) — regenerated locally
+out/
+
+# large raw topic files; the small committed demo set is allow-listed below
+data/*.jsonl
+!data/clickstream_30min.jsonl
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
